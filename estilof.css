@@ -1,0 +1,105 @@
+body{
+	font-family: sans-serif;
+	color: #333;
+	font-size: 1rem;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+.header1{
+	background: #022317;
+	color: white;
+}
+
+.header1{
+	color: white;
+	text-decoration: none;
+}
+
+.contenedor_logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 7rem;
+}
+
+.logo{
+	width: 190px;
+}
+
+.navegador1 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navegador1 ul li {
+	display: inline-block;
+}
+
+  .navegador1 ul li a {
+	  display: block;
+	  padding: 0.5rem 0.5rem;
+	  text-decoration: none;
+	  font-family: sans-serif;
+	  font-size: 20px;
+	  color: white;
+	  font-weight: bold;
+  }
+
+     .navegador1 ul li a:hover {
+     	background: #4a4a4a;
+     	transition: all 0.4s linear;
+     }
+
+.parrafo_cont1{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.parrafo_cont1{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.preguntas{
+	margin-left: 50px;
+	margin-right: 600px;
+}
+
+.preguntas{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.formulariov{
+	position: absolute;
+	top:650px;
+	left: 900px;
+	align-items: center;
+}
+
+.formulariov ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.formulariov ul li {
+	display: inline-block;
+}
+
+  .furmulariov ul li a {
+	  display: block;
+	  padding: 0.5rem 0.5rem;
+	  text-decoration: none;
+	  font-family: sans-serif;
+	  font-size: 20px;
+	  color: white;
+	  font-weight: bold;
+  }
+
+     .formulariov ul li a:hover {
+     	background: #FCFF1A;
+     	transition: all 0.4s linear;
+     }

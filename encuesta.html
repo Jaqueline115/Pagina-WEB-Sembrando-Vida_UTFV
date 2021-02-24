@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario UTFV</title>
+</head>
+<body>
+
+	<link rel="stylesheet" type="text/css" href="estilof.css">
+
+	<header class="header1">
+		<div class="contenedor_logo">
+			<img src="img/logo.png" class="logo">
+			<nav class="navegador1"></nav>
+
+			<nav class="navegador1">
+				<ul>
+					<li><a href="#">Formulario Universidad Tecnologica Fidel Velazquez</a></li>
+				</ul>
+			</nav>
+	    </div>
+	</header>
+
+	<br>
+
+		<p><span class="parrafo_cont1">Leer con atención y llenar los campos con la información que se solicita.
+		Y al finalizar escribir un comentario y enviar las respuestas.</span></p>
+
+		<br>
+
+    <main>
+	    	   <form name="form1" method="post" action="correo.php">
+
+               <div class="preguntas">
+
+	    	   	<label for="nombre">Ingresa tu Nombre</label>
+	    	   	<input type="text" name="nombre" id="nombre">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="apellido paterno">Ingresa tu Apellido Paterno</label>
+	    	   	<input type="text" name="apellido_p" id="apellido_p">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="apellido materno">Ingresa tu Apellido Materno</label>
+	    	   	<input type="text" name="apellido_m" id="apellido_m">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="fecha de nacimiento">Ingresa tu fecha de Nacimiento</label>
+	    	   	<input type="date" name="fecha_n" id="fecha_n">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="genero">Ingresa tu Genero</label>
+	    	   	    Mujer <input type="radio" name="Genero" value="f">
+            	    Hombre <input type="radio" name="Genero" value="f">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="profesion">Ingresa tu Profesión</label>
+	    	   	<input type="text" name="profesion" id="profesion">
+	    	   	<br>
+	    	   	<br>
+	    	   	<td>Estado</td>
+                            <td>
+                                <select Name="Estado">
+                                 <option value="Estado"></option>
+                	             <option value="Estado"> CDMX</option>
+                	             <option value="Estado"> ESTADO DE MEXICO</option>
+                	             <option value="Estado"> JALISCO</option>
+                	             <option value="Estado"> NUEVO LEON</option>
+                	             <option value="Estado"> GUERRERO</option>
+                	             <option value="Estado"> OTRO</option>
+                                </select>
+                            </td>
+                            
+                <br>
+                <br>
+                <tr>
+            	<td>Cometarios</td>
+            	<td><textarea rows="3" name="Cometarios"></textarea></td>
+                </tr>
+                <br>
+                <br>
+	    	   	<input type="submit" name="Enviar" value="enviar">
+
+              </div>
+
+	    	   </form>
+
+	    	   <br>
+	    	   <br>
+
+	    <nav class="formulariov">
+		<ul>
+			<li><a href="index.html">Volver a la Pagina Principal</a></li>
+		</ul>
+	     </nav> 
+	</div>
+
+    </main>
+
+	<br>
+	<br>
+
+	<footer class="foot">
+		<img src="img/basep.png">
+	</footer>
+
+</body>
+</html>
